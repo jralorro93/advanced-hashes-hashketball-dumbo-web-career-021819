@@ -218,7 +218,7 @@ def big_shoe_rebounds
         data.each do |key, value|
           if biggest_shoe == nil || biggest_shoe < value[:shoe]
             biggest_shoe = value[:shoe] 
-            answer = key[:rebounds]
+            answer = value[:rebounds]
           end 
         end 
       end 
