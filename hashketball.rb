@@ -224,7 +224,7 @@ def big_shoe_rebounds
       end 
     end 
   end 
-  answer
+  answer = game_hash[:team_data][:attribute][:data][:rebounds]
   biggest_shoe  
   binding.pry
 end 
