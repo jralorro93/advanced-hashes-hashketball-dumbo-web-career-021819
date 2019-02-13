@@ -142,7 +142,6 @@ def shoe_size(name)
     team_data.each do |attribute, data|
       if attribute == :players
         data.each do |key|
-                binding.pry
           if key[:player_name] == name 
             return key[:shoe].to_i 
           end 
