@@ -143,8 +143,7 @@ def shoe_size(name)
       if attribute == :players
         data.each do |key, value|
           if key == name 
-                  binding.pry
-            return key[:shoe].to_i 
+            return value[:shoe]
           end 
         end
       end 
