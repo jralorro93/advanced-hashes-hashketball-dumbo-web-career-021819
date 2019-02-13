@@ -200,10 +200,8 @@ def player_stats(name)
       if attribute == :players
         data.each do |key, value|
           binding.pry
-          if value[:player_name] == name
-            binding.pry
-            answer = value.reject {|x| x == :player_name}
-
+          if key == name
+            answer = value
           end 
          end
       end 
