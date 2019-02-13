@@ -198,6 +198,7 @@ def player_stats(name)
   game_hash.each do |place, team_data|
     team_data.each do |attribute, data|
       if attribute == :players
+        binding.pry
         data.each do |value|
           if value[:player_name] == name
             answer = value.reject {|x| x == :player_name}
