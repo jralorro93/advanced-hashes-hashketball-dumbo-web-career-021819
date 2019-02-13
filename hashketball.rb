@@ -225,8 +225,6 @@ def big_shoe_rebounds
     end 
   end 
   answer
-  biggest_shoe  
-  binding.pry
 end 
 
 
