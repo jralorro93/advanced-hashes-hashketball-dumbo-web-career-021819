@@ -178,8 +178,8 @@ end
 def player_numbers(team)
   team_array = []
   game_hash.each do |place, team_data|
-          binding.pry
     team_data.each do |attribute, data|
+      binding.pry
       if data == team
         team_data.each do |key, value|
           if key == :players
