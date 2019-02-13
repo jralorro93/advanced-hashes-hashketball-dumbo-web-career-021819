@@ -184,7 +184,7 @@ def player_numbers(team)
           if key == :players
             value.each do | k, v |
                           binding.pry
-              team_array << v[:number].to_i
+              team_array << v[:number]
             end 
           end 
         end  
