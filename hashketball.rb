@@ -183,7 +183,6 @@ def player_numbers(team)
         team_data.each do |key, value|
           if key == :players
             value.each do | k, v |
-                          binding.pry
               team_array << v[:number]
             end 
           end 
