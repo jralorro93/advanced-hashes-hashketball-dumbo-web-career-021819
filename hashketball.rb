@@ -191,7 +191,6 @@ def player_numbers(team)
     end 
   end 
   team_array
-  binding.pry
 end 
 
 def player_stats(name)
