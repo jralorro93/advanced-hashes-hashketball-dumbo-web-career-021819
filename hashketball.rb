@@ -199,7 +199,6 @@ def player_stats(name)
     team_data.each do |attribute, data|
       if attribute == :players
         data.each do |key, value|
-          binding.pry
           if key == name
             answer = value
           end 
